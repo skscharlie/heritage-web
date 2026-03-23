@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Heritage &amp; Craft - 100 Years of Roasting Tradition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;family=Lora:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-background-light dark:bg-background-dark text-text-main dark:text-text-main-dark font-body antialiased min-h-screen flex justify-center">
+    <div class="noise-overlay"></div>
+    <main class="w-full max-w-[480px] bg-background-light dark:bg-background-dark relative shadow-xl shadow-black/5 flex flex-col min-h-screen border-x border-muted/20">
+      
+      <!-- Header (Sticky) -->
+      <header class="sticky top-0 z-40 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm px-4 py-4 flex items-center justify-between transition-all duration-300 border-b border-transparent" id="main-header">
+        <h1 class="font-display text-lg font-bold tracking-wide text-primary dark:text-accent uppercase">전통과 장인 정신</h1>
+        <button class="text-primary dark:text-accent">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="relative w-full h-[530px] bg-surface dark:bg-surface-dark overflow-hidden flex flex-col justify-end pb-12 px-6">
+        <!-- Background Image with Sepia Tone and Gradient Overlay -->
+        <div class="absolute inset-0 z-0 bg-cover bg-center" data-alt="Vintage coffee roasting machine" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuATCl9ovZ00SPZHcvSlHIfBeSijWJdfX8WDp7K38iLVu3iG6U1EC0fHiEVApQdJlPc4QbVUaXmsvxG8r-fzQg4uCRIbMMkm9sk7fNC23uCrtAC-GBvKcLwCltjfziTUa8QnxN5lmnM0vhc4i2diH_ExyMnQnmHfA08NqN0__ABxBsdvM-5p25i_lddqqRpVrHCzi4_qq5b3iOI95MD_03MfNB2TR8PkFzmne8SeEHMZcF-naguLCo7SyK1fbtSDDlfqwYhVPcZVwu0Y'); filter: sepia(0.6) contrast(1.1) brightness(0.8);"></div>
+        <div class="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+        <div class="relative z-20 text-center">
+          <span class="font-ui text-accent font-medium text-xs tracking-[0.15em] uppercase mb-4 block">Est. 1924</span>
+          <h2 class="font-display text-4xl text-[#F4EFE6] font-bold leading-tight drop-shadow-md">
+              100 Years of<br>Roasting Tradition
+          </h2>
+        </div>
+      </section>
+
+      <!-- Brand Statement -->
+      <section class="py-xl px-6 text-center">
+        <div class="w-8 h-[1px] bg-accent mx-auto mb-8"></div>
+        <p class="font-body text-base leading-relaxed text-text-main/90 dark:text-text-main-dark/90">
+            For a century, we have dedicated ourselves to the tactile and sensory art of coffee roasting. Sourcing only the finest beans from historic estates, our process honors the delicate balance between time-tested tradition and nuanced modern profiles. Every batch is a testament to our unwavering commitment to the craft.
+        </p>
+      </section>
+
+      <!-- Recommended Roast Card -->
+      <section class="px-4 pb-xl flex-grow">
+        <div class="flex items-center gap-4 mb-6 px-2">
+          <div class="h-[1px] flex-grow bg-muted/30"></div>
+          <h3 class="font-ui text-xs font-medium uppercase tracking-[0.1em] text-muted">Seasonal Reserve</h3>
+          <div class="h-[1px] flex-grow bg-muted/30"></div>
+        </div>
+        <div class="border border-muted bg-surface dark:bg-surface-dark p-6 relative">
+          <!-- Decorative corner marks -->
+          <div class="absolute top-0 left-0 w-2 h-2 border-t border-l border-primary dark:border-accent -mt-[1px] -ml-[1px]"></div>
+          <div class="absolute top-0 right-0 w-2 h-2 border-t border-r border-primary dark:border-accent -mt-[1px] -mr-[1px]"></div>
+          <div class="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-primary dark:border-accent -mb-[1px] -ml-[1px]"></div>
+          <div class="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-primary dark:border-accent -mb-[1px] -mr-[1px]"></div>
+          <div class="text-center mb-4">
+            <span class="inline-block px-2 py-1 bg-accent/10 text-accent font-ui text-[10px] uppercase tracking-wider mb-3">Limited Availability</span>
+            <h4 class="font-display text-2xl font-bold mb-1 text-primary dark:text-accent">Sumatra Mandheling</h4>
+            <p class="font-body text-sm italic text-muted">Earthy, Dark Chocolate, Cedar</p>
+          </div>
+          <p class="font-body text-sm text-center leading-relaxed text-text-main/80 dark:text-text-main-dark/80 mb-6">
+              A heavy-bodied classic from the volcanic slopes of Mount Leuser. Wet-hulled and roasted deep to bring out a syrupy richness and complex spice notes.
+          </p>
+          <button class="w-full py-3 border border-primary dark:border-accent text-primary dark:text-accent font-ui text-xs font-medium uppercase tracking-[0.15em] hover:bg-primary hover:text-[#F4EFE6] dark:hover:bg-accent dark:hover:text-[#2A1E17] transition-colors">
+              Explore Details
+          </button>
+        </div>
+      </section>
+
+      <!-- Main CTA -->
+      <div class="p-4 mt-auto">
+        <button class="w-full h-12 bg-primary dark:bg-accent text-[#F4EFE6] dark:text-[#2A1E17] font-ui text-xs font-medium uppercase tracking-[0.15em] flex items-center justify-center gap-2 hover:bg-primary/90 dark:hover:bg-accent/90 transition-none">
+          Explore Roasts
+          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+        </button>
+      </div>
+
+      <!-- Bottom Navigation -->
+      <nav class="flex border-t border-muted bg-background-light dark:bg-background-dark pb-safe">
+        <a class="flex flex-1 flex-col items-center justify-center py-3 gap-1 text-primary dark:text-accent border-b-2 border-primary dark:border-accent" href="/index.html">
+          <span class="material-symbols-outlined text-[24px]">home</span>
+          <span class="font-ui text-[10px] uppercase tracking-wider font-medium">Home</span>
+        </a>
+        <a class="flex flex-1 flex-col items-center justify-center py-3 gap-1 text-muted hover:text-primary dark:hover:text-accent border-b-2 border-transparent" href="/menu.html">
+          <span class="material-symbols-outlined text-[24px]">menu_book</span>
+          <span class="font-ui text-[10px] uppercase tracking-wider font-medium">Menu</span>
+        </a>
+        <a class="flex flex-1 flex-col items-center justify-center py-3 gap-1 text-muted hover:text-primary dark:hover:text-accent border-b-2 border-transparent" href="/craft.html">
+          <span class="material-symbols-outlined text-[24px]">local_cafe</span>
+          <span class="font-ui text-[10px] uppercase tracking-wider font-medium">Craft</span>
+        </a>
+        <a class="flex flex-1 flex-col items-center justify-center py-3 gap-1 text-muted hover:text-primary dark:hover:text-accent border-b-2 border-transparent" href="/visit.html">
+          <span class="material-symbols-outlined text-[24px]">location_on</span>
+          <span class="font-ui text-[10px] uppercase tracking-wider font-medium">Visit</span>
+        </a>
+      </nav>
+    </main>
+    <script type="module" src="/main.js"></script>
+    <script>
+      // Simple script to handle scroll header border
+      const header = document.getElementById('main-header');
+      window.addEventListener('scroll', () => {
+          if (window.scrollY > 50) {
+              header.classList.add('border-muted');
+              header.classList.remove('border-transparent');
+          } else {
+              header.classList.remove('border-muted');
+              header.classList.add('border-transparent');
+          }
+      });
+    </script>
+  </body>
+</html>
